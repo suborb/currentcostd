@@ -1,0 +1,32 @@
+Currentcost daemon
+------------------
+
+This is a simple daemon process that gathers data from a
+CC128 device and then calls a script to update databases,
+generate graphs/whatever is desired.
+
+The reason for writing is that I couldn't get the commonly
+used perl script to work reliably and not consume vast amounts
+of CPU on my OpenBSD machine.
+
+Config options
+--------------
+
+Configuration can be performed by the command line or from
+a configuration file. Run currentcost -h to show the
+available configuration options.
+
+Notes
+====
+
+This work is directly derived from the work at the following
+resources:
+
+http://www.bensmithurst.com/currentcost/
+http://www.jibble.org/currentcost/
+
+And incorporates code from open2300:
+
+http://www.lavrsen.dk/twiki/bin/view/Open2300/WebHome
+
+
